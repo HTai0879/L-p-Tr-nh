@@ -154,9 +154,7 @@ procedure hoanvi;
 ```
 ## A^B
 ### Công thức
-{a(a*((b-1)/2)² nếu b lẻ
-{(a*(b/2))²
-```pas
+![alt](https://techmaster.vn/resources/image/logo.png)
 function ab(a, B : int) : int;
   begin
     if (b = 0) then exit(a);
