@@ -95,3 +95,21 @@ function chuoilap(s : string) : boolean
   end;
 ```
 ## Hoán vị
+```pas
+function inttochar(n : byte) : char;
+  begin
+    exit(chr(n+48));
+  end;
+procedure hoanvi;
+  var i : byte;
+  begin
+    if (length(s) = n) then writeln(s) else
+    for i := 1 to n do
+      if pos(inttochar(i), s)=0 then
+        begin
+          s := s + inttochar(i);
+          hoanvi;
+          delete(s, length(s), 1);
+        end;
+  end;
+```
