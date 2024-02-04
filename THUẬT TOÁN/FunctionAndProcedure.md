@@ -174,6 +174,13 @@ function ucln(a, b : int) : int;
     exit(ucln(b, a mod b));
   end;
 ```
+## BCNN
+```pas
+function bcnn(a, b : int) : int;
+  begin
+    bcnn := (a*b) div ucln(a, b);
+  end;
+```
 # BÀI TẬP • CÔNG THỨC
 ### Công thức tính tổng các số chia hết cho k từ 1 đến n
 ```pas
