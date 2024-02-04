@@ -7,6 +7,11 @@ Ví dụ:
 ```pas
 type int = longint;
 ```
+## Khác
+```pas
+<biến> := <biến> = <biến>;
+```
+cho giá trị TRUE nếu <biến> = <biến> ngược lại thì FALSE
 # THUẬT TOÁN
 ## Giai thừa
 ### n!
@@ -47,7 +52,7 @@ function fibo(n : int) : qword;
     exit(f[n]);
   end;
 ```
-## Tìm max & mịn
+## Tìm max & min
 ```pas
 type arr = array [1..100] of int;
 var m : int;
@@ -68,5 +73,14 @@ function timmin(a : arr, vt, n : int) : int;
     if (vt = n) then exit(a[vt]);
     m := timmin(a, vt+1, n);
     if (m > a[vt]) then m := a[vt];
+  end;
+```
+## Số chính phương
+```pas
+function sochinhphuong(n : int) : boolean;
+  var a : int;
+  begin
+    a := trunc(sqrt(n));
+    sochinhphuong := a = sqrt(n);
   end;
 ```
