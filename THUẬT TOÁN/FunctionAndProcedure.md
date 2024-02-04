@@ -154,7 +154,8 @@ procedure hoanvi;
 ```
 ## A^B
 ### Công thức
-![alt](https://techmaster.vn/resources/image/logo.png)
+![alt](https://freetuts.net/upload/tut_post/images/2020/05/19/2681/cong-thuc-truy-hoi-freetuts.png)
+```pas
 function ab(a, B : int) : int;
   begin
     if (b = 0) then exit(a);
