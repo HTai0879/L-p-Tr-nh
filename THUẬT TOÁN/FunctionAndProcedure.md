@@ -40,6 +40,13 @@ insert(r, s, vt) : chèn sâu r vào sâu s bắt đầu từ vị trí vt
 length(s) : cho độ dài sâu s
 copy(s, vt, n) : copy n kí tự của sâu s từ vị trí vt
 pos(r, s) : vị trí xuất hiện đầu tiên của r trong sâu s, nếu không xuất hiện thì xuất bằng 0
+upcase(s hoặc s[i]) : in hoa sâu s hoặc kí tự s[i]
+lowercase(s hoặc s[i]) : chuyển in hoa thành in thường
+concat(S1..Ăn) : ghép sâu từ S1 đến An
+str(n, s) : chuyển giá trị kiểu số n sáng thành sâu s
+val(st, n, e) : sâu st thành số n *bắt buộc thêm e kiểu dữ liệu integer
+ord(s) : lấy mã ASLL của 1 kí tự
+chr(n) : trả về kí tự tương ứng của n với mã ASLL
 ```
 # THUẬT TOÁN
 ## Giai thừa
