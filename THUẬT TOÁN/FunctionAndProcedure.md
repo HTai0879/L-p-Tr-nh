@@ -1,1 +1,2 @@
 # THUẬT TOÁN
+## Giai thừa
