@@ -3,7 +3,10 @@
 ```pas
 type <tên> = <kiểu dữ liệu>;
 ```
-Ví dụ: ```pas type int = longint;```
+Ví dụ:
+```pas
+type int = longint;
+```
 # THUẬT TOÁN
 ## Giai thừa
 '''pas
