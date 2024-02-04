@@ -114,6 +114,7 @@ procedure hoanvi;
   end;
 ```
 ## A^B
+```pas
 function ab(a, B : int) : int;
   begin
     if (b = 0) then exit(a);
@@ -121,3 +122,4 @@ function ab(a, B : int) : int;
       exit(a * sqr(ab(a,(b-1) div 2)));
     exit(sqr(ab(a, b div 2)));
   end;
+```
