@@ -36,3 +36,14 @@ function fibo(n : int) : qword;
   end;
 ```
 ### Quy hoạch động
+```pas
+f : array [1..100] of int;
+function fibo(n : int) : qword
+  begin
+    f[0] := 0;
+    f[1] := 1;
+    for i := 2 to n do
+      f[i] := f[i-1]+f[i-2];
+    exit(f[n]);
+  end;
+```
