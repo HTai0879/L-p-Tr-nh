@@ -198,7 +198,7 @@ function sohoanthien(n : int) : boolean;
   begin
     for i := 1 to trunc(sqrt(n)) do
       if (i mod n = 0) then inc(s, i);
-    sohianthien := s = n;
+    sohoanthien := s = n;
   end;
 ```
 # BÀI TẬP • CÔNG THỨC
