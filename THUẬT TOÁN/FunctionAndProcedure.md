@@ -14,9 +14,16 @@ type int = longint;
 cho giá trị TRUE nếu <biến> = <biến> ngược lại thì FALSE
 ## Các hàm
 ### Số
-```txt
+```pas
 sqr(x) : trả về x²
-
+sqrt(x) : trả về √x
+abs(x) : trả về|x|
+sin(x) : trả về sin(x) theo radian
+cos(x) : trả về cos(x) theo radian
+arctang(x) : trả về arvtang(x) theo radian
+int(x) : trả về phần nguyên của x
+trunc(x) : trả về số nguyên gần với x nhất nhưng < x
+frac(x) : trả về phần thập phân của x
 ```
 # THUẬT TOÁN
 ## Giai thừa
