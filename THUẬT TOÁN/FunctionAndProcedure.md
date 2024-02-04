@@ -130,12 +130,15 @@ function chuoilap(s : string) : boolean
       if (s[i] <> s[length(s) div 2 + i]) then exit(false);
   end;
 ```
-## Hoán vị
+## Chuyển số sáng char
 ```pas
 function inttochar(n : byte) : char;
   begin
     exit(chr(n+48));
   end;
+```
+## Hoán vị
+```pas
 procedure hoanvi;
   var i : byte;
   begin
