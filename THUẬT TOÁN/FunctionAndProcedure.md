@@ -196,8 +196,9 @@ function songuyento(n : int) : boolean;
 function sohoanthien(n : int) : boolean;
   var i, s: int;
   begin
-    for i := 1 to trunc(sqrt(n)) do
-      if (i mod n = 0) then inc(s, i);
+    if (n < 2) then exit(false);
+    for i := 1 to n div 2 do
+      if (n mod i = 0) then inc(s, i);
     sohoanthien := s = n;
   end;
 ```
