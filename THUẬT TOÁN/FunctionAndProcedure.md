@@ -1,8 +1,8 @@
 # CƠ BẢN
 ## Tạo kiểu dữ liệu
-'''pas
+```pas
 type <tên> = <kiểu dữ liệu>;
-'''
+```
 Ví dụ: type int = longint;
 # THUẬT TOÁN
 ## Giai thừa
