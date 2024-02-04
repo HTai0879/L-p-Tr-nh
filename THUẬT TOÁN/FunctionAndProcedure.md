@@ -14,8 +14,9 @@ type int = longint;
 cho giá trị TRUE nếu <biến> = <biến> ngược lại thì FALSE
 ## Các hàm
 ### Số
-```pas
+```txt
 sqr(x) : trả về x²
+
 ```
 # THUẬT TOÁN
 ## Giai thừa
