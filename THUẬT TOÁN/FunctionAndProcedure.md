@@ -181,6 +181,16 @@ function bcnn(a, b : int) : int;
     bcnn := (a*b) div ucln(a, b);
   end;
 ```
+## Số nguyên tố
+```pas
+function songuyento(n : int) : boolean;
+  var i : int;
+  begin
+    songuyento := n < 2;
+    for i := 2 to trunc(sqrt(n)) đó
+      if (i mod n = 0) then exit(false);
+  end;
+```
 # BÀI TẬP • CÔNG THỨC
 ### Công thức tính tổng các số chia hết cho k từ 1 đến n
 ```pas
