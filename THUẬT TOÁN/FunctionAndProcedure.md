@@ -153,6 +153,10 @@ procedure hoanvi;
   end;
 ```
 ## A^B
+### Công thức:
+         { a(a*((b-1)/2)²
+ab(a, b) {
+         { (a*(b/2))²
 ```pas
 function ab(a, B : int) : int;
   begin
@@ -161,4 +165,10 @@ function ab(a, B : int) : int;
       exit(a * sqr(ab(a,(b-1) div 2)));
     exit(sqr(ab(a, b div 2)));
   end;
+```
+# BÀI TẬP • CÔNG THỨC
+### Công thức tính tổng các số chia hết cho k từ 1 đến n
+```pas
+n := n - (n mod k);
+s := (k+n) * ((n-k) div k + 1) div 2;
 ```
