@@ -164,6 +164,15 @@ function ab(a, B : int) : int;
     exit(sqr(ab(a, b div 2)));
   end;
 ```
+## UCLN
+### Công thức
+![alt](https://freetuts.net/upload/tut_post/images/2020/05/19/2681/cong-thuc-truy-hoi-freetuts.png)
+```pas
+function ucln(a, b : int) : int;
+  begin
+  
+  end;
+```
 # BÀI TẬP • CÔNG THỨC
 ### Công thức tính tổng các số chia hết cho k từ 1 đến n
 ```pas
