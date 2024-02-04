@@ -50,10 +50,23 @@ function fibo(n : int) : qword;
 ## Tìm max & mịn
 ```pas
 type arr = array [1..100] of int;
+var m : int;
 ```
 ### Tìm max
 ```pas
 function timmax(a : arr, vt, n : int) : int;
-
+  begin
+    if (vt = n) then exit(a[vt]);
+    m := timmax(a, vt+1, n);
+    if (m < a[vt]) then m := a[vt];
+  end;
 ```
 ### Tìm min
+```pas
+function timmin(a : arr, vt, n : int) : int;
+  begin
+    if (vt = n) then exit(a[vt]);
+    m := timmin(a, vt+1, n);
+    if (m > a[vt]) then m := a[vt];
+  end;
+```
