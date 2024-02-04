@@ -130,7 +130,7 @@ function chuoilap(s : string) : boolean
       if (s[i] <> s[length(s) div 2 + i]) then exit(false);
   end;
 ```
-## Chuyển số sáng char
+## Chuyển số sang char
 ```pas
 function inttochar(n : byte) : char;
   begin
