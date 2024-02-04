@@ -12,6 +12,11 @@ type int = longint;
 <biến> := <biến> = <biến>;
 ```
 cho giá trị TRUE nếu <biến> = <biến> ngược lại thì FALSE
+## Các hàm
+### Số
+```pas
+sqr(x) : trả về x²
+```
 # THUẬT TOÁN
 ## Giai thừa
 ### n!
