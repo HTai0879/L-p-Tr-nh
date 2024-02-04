@@ -153,9 +153,9 @@ procedure hoanvi;
   end;
 ```
 ## A^B
-         { a(a*((b-1)/2)²
-ab(a, b) {
-         { (a*(b/2))²
+### Công thức
+{a(a*((b-1)/2)² nếu b lẻ
+{(a*(b/2))²
 ```pas
 function ab(a, B : int) : int;
   begin
