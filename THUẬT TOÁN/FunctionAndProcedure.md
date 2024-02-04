@@ -166,7 +166,7 @@ function ab(a, B : int) : int;
 ```
 ## UCLN
 ### Công thức
-![alt](https://freetuts.net/upload/tut_post/images/2020/05/19/2681/cong-thuc-truy-hoi-freetuts.png)
+![alt](https://freetuts.net/upload/tut_post/images/2020/05/16/2659/Euclid-freetuts.png)
 ```pas
 function ucln(a, b : int) : int;
   begin
