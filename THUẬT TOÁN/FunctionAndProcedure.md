@@ -170,7 +170,8 @@ function ab(a, B : int) : int;
 ```pas
 function ucln(a, b : int) : int;
   begin
-  
+    if (b = 0) then exit(b);
+    exit(ucln(b, a mod b));
   end;
 ```
 # BÀI TẬP • CÔNG THỨC
