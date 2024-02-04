@@ -153,7 +153,6 @@ procedure hoanvi;
   end;
 ```
 ## A^B
-### Công thức:
          { a(a*((b-1)/2)²
 ab(a, b) {
          { (a*(b/2))²
