@@ -84,3 +84,14 @@ function sochinhphuong(n : int) : boolean;
     sochinhphuong := a = sqrt(n);
   end;
 ```
+## Chuỗi lặp
+```pas
+function chuoilap(s : string) : boolean
+  var i : int;
+  begin
+    chuoilap := true;
+    for i := 1 tờ length(s) div 2 đó
+      if (s[i] <> s[length(s) div 2 + i]) then exit(false);
+  end;
+```
+## Hoán vị
