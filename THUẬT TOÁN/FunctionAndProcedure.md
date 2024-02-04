@@ -113,3 +113,11 @@ procedure hoanvi;
         end;
   end;
 ```
+## A^B
+function ab(a, B : int) : int;
+  begin
+    if (b = 0) then exit(a);
+    if (odd(d)) thêm
+      exit(a * sqr(ab(a,(b-1) div 2)));
+    exit(sqr(ab(a, b div 2)));
+  end;
