@@ -186,7 +186,7 @@ function bcnn(a, b : int) : int;
 function songuyento(n : int) : boolean;
   var i : int;
   begin
-    songuyento := n < 2;
+    songuyento := n > 1;
     for i := 2 to trunc(sqrt(n)) đó
       if (i mod n = 0) then exit(false);
   end;
