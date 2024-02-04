@@ -32,7 +32,9 @@ inc(n) : tăng n thêm 1 đơn vị
 inc(n, x) : tăng n lên x đơn vị
 dec(n) : giảm n thêm 1 đơn vị
 dec(n, x) : giảm n thêm x đơn vị
+```
 ### Sâu
+```pas
 delete(s, vt, n) : xóa đi n kí tự của sâu s kể từ kí tự thú vật
 insert(r, s, vt) : chèn sâu r vào sâu s bắt đầu từ vị trí vt
 length(s) : cho độ dài sâu s
