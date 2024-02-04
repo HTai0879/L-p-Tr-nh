@@ -38,7 +38,7 @@ function fibo(n : int) : qword;
 ### Quy hoạch động
 ```pas
 f : array [1..100] of int;
-function fibo(n : int) : qword
+function fibo(n : int) : qword;
   begin
     f[0] := 0;
     f[1] := 1;
@@ -47,3 +47,13 @@ function fibo(n : int) : qword
     exit(f[n]);
   end;
 ```
+## Tìm max & mịn
+```pas
+type arr = array [1..100] of int;
+```
+### Tìm max
+```pas
+function timmax(a : arr, vt, n : int) : int;
+
+```
+### Tìm min
