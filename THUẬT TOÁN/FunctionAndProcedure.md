@@ -9,10 +9,19 @@ type int = longint;
 ```
 # THUẬT TOÁN
 ## Giai thừa
+### n!
 ```pas
 function giaithua(n: int) : qword;
   begin
     if (n <= 1) then exit(1);
     giaithua := n * giaithua(n-1);
+  end;
+```
+### n!!
+```pas
+function giaithua(n: int) : qword;
+  begin
+    if (n <= 1) then exit(1);
+    giaithua := n * giaithua(n-2);
   end;
 ```
