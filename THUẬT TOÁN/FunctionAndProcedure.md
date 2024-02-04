@@ -191,6 +191,16 @@ function songuyento(n : int) : boolean;
       if (i mod n = 0) then exit(false);
   end;
 ```
+## Số hoàn thiện
+```pas
+function sohoanthien(n : int) : boolean;
+  var i, s: int;
+  begin
+    for i := 1 to trunc(sqrt(n)) đó
+      if (i mod n = 0) then inc(s, i);
+    sohianthien := s = n;
+  end;
+```
 # BÀI TẬP • CÔNG THỨC
 ### Công thức tính tổng các số chia hết cho k từ 1 đến n
 ```pas
