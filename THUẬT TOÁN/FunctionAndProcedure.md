@@ -54,7 +54,7 @@ chr(n) : trả về kí tự tương ứng của n với mã ASLL
 ```pas
 function giaithua(n : int) : qword;
   begin
-    if (n <= 1) then exit(1);
+    if (n = 1) then exit(1);
     giaithua := n * giaithua(n-1);
   end;
 ```
